@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="784" height="974" viewBox="0 0 784 974" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="13">
+<style>
+.l{opacity:0;animation:in .18s ease-out forwards}
+@keyframes in{from{opacity:0;transform:translateY(3px)}to{opacity:1;transform:translateY(0)}}
+.cursor{animation:blink 1.1s steps(1) infinite 10s;opacity:0}
+@keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}
+@media (prefers-reduced-motion: reduce){.l{animation:none;opacity:1}.cursor{animation:none;opacity:1}}
+</style>
+<rect width="784" height="974" rx="10" fill="#0d1117" stroke="#30363d"/>
+<path d="M0 10 a10 10 0 0 1 10 -10 h764 a10 10 0 0 1 10 10 v26 h-784 z" fill="#161b22"/>
+<line x1="0" y1="36" x2="784" y2="36" stroke="#30363d"/>
+<circle cx="20" cy="18" r="5.5" fill="#ff5f56"/>
+<circle cx="40" cy="18" r="5.5" fill="#ffbd2e"/>
+<circle cx="60" cy="18" r="5.5" fill="#27c93f"/>
+<text x="392" y="22.5" text-anchor="middle" fill="#8b949e" font-size="12">deal-engine — full lifecycle, live API</text>
+<text x="16" y="66" class="l" style="animation-delay:0.00s"><tspan fill="#7ee787" font-weight="600">$ </tspan><tspan fill="#e6edf3" font-weight="600">npm run demo:run</tspan></text>
+<text x="16" y="86" class="l" style="animation-delay:0.22s"><tspan fill="#79c0ff" font-weight="600">── demo-run: end-to-end lifecycle against http://localhost:3000 ──</tspan></text>
+<text x="16" y="106" class="l" style="animation-delay:0.44s"><tspan fill="#8b949e">   deal 00000000-0000-0000-0000-00000000dea1  (login demo@example.com, auth=bearer)</tspan></text>
+<text x="16" y="126" class="l" style="animation-delay:0.67s"><tspan fill="#e6edf3"></tspan></text>
+<text x="16" y="146" class="l" style="animation-delay:0.89s"><tspan fill="#3fb950" font-weight="600">✓</tspan><tspan fill="#e6edf3"> 01  login → session</tspan></text>
+<text x="16" y="166" class="l" style="animation-delay:1.11s"><tspan fill="#8b949e">        fit=90 eng=0 tier=warm disq=false</tspan></text>
+<text x="16" y="186" class="l" style="animation-delay:1.33s"><tspan fill="#3fb950" font-weight="600">✓</tspan><tspan fill="#e6edf3"> 02  evaluate lead (fit + tier)</tspan></text>
+<text x="16" y="206" class="l" style="animation-delay:1.56s"><tspan fill="#8b949e">        mode=message — email on file — written message</tspan></text>
+<text x="16" y="226" class="l" style="animation-delay:1.78s"><tspan fill="#3fb950" font-weight="600">✓</tspan><tspan fill="#e6edf3"> 03  route first contact</tspan></text>
+<text x="16" y="246" class="l" style="animation-delay:2.00s"><tspan fill="#8b949e">        outbox 24801a1b-3859-4de3-b9c0-f98bbd5d67d5 status=draft source=ai</tspan></text>
+<text x="16" y="266" class="l" style="animation-delay:2.22s"><tspan fill="#3fb950" font-weight="600">✓</tspan><tspan fill="#e6edf3"> 04  draft first-contact message</tspan></text>
+<text x="16" y="286" class="l" style="animation-delay:2.44s"><tspan fill="#8b949e">        status=sent event=first_contact_sent messageId=&lt;e398932d-1d63-276b-08fa-06fe7f1a00d7@ex…</tspan></text>
+<text x="16" y="306" class="l" style="animation-delay:2.67s"><tspan fill="#8b949e">        → check the email at http://localhost:8025 (Mailpit)</tspan></text>
+<text x="16" y="326" class="l" style="animation-delay:2.89s"><tspan fill="#3fb950" font-weight="600">✓</tspan><tspan fill="#e6edf3"> 05  approve message → send (Mailpit)</tspan></text>
+<text x="16" y="346" class="l" style="animation-delay:3.11s"><tspan fill="#8b949e">        eventId=0fb0dcba-00cf-419c-819e-9d41a73c7e85 source=ai applied=false</tspan></text>
+<text x="16" y="366" class="l" style="animation-delay:3.33s"><tspan fill="#3fb950" font-weight="600">✓</tspan><tspan fill="#e6edf3"> 06  upload call audio → recap</tspan></text>
+<text x="16" y="386" class="l" style="animation-delay:3.56s"><tspan fill="#8b949e">        applied=true stage→meeting</tspan></text>
+<text x="16" y="406" class="l" style="animation-delay:3.78s"><tspan fill="#3fb950" font-weight="600">✓</tspan><tspan fill="#e6edf3"> 07  approve recap</tspan></text>
+<text x="16" y="426" class="l" style="animation-delay:4.00s"><tspan fill="#8b949e">        proposal 58761b38-dbe8-40c2-ac24-6f983180ea0d status=draft source=ai gates: pricing=tru…</tspan></text>
+<text x="16" y="446" class="l" style="animation-delay:4.22s"><tspan fill="#3fb950" font-weight="600">✓</tspan><tspan fill="#e6edf3"> 08  generate proposal</tspan></text>
+<text x="16" y="466" class="l" style="animation-delay:4.44s"><tspan fill="#8b949e">        status=ready</tspan></text>
+<text x="16" y="486" class="l" style="animation-delay:4.67s"><tspan fill="#3fb950" font-weight="600">✓</tspan><tspan fill="#e6edf3"> 09  approve proposal</tspan></text>
+<text x="16" y="506" class="l" style="animation-delay:4.89s"><tspan fill="#8b949e">        2982 bytes, valid %PDF header</tspan></text>
+<text x="16" y="526" class="l" style="animation-delay:5.11s"><tspan fill="#3fb950" font-weight="600">✓</tspan><tspan fill="#e6edf3"> 10  render proposal PDF</tspan></text>
+<text x="16" y="546" class="l" style="animation-delay:5.33s"><tspan fill="#8b949e">        cadence=proposal_followup scheduled=3 step(s)</tspan></text>
+<text x="16" y="566" class="l" style="animation-delay:5.56s"><tspan fill="#3fb950" font-weight="600">✓</tspan><tspan fill="#e6edf3"> 11  start follow-ups</tspan></text>
+<text x="16" y="586" class="l" style="animation-delay:5.78s"><tspan fill="#3fb950" font-weight="600">✓</tspan><tspan fill="#e6edf3"> 12  add stakeholder</tspan></text>
+<text x="16" y="606" class="l" style="animation-delay:6.00s"><tspan fill="#8b949e">        allApproved=true advancedTo=won</tspan></text>
+<text x="16" y="626" class="l" style="animation-delay:6.22s"><tspan fill="#3fb950" font-weight="600">✓</tspan><tspan fill="#e6edf3"> 13  mark stakeholder approved</tspan></text>
+<text x="16" y="646" class="l" style="animation-delay:6.44s"><tspan fill="#8b949e">        request e5b47cc0-c6a1-4dc0-9abc-4fb86eab972a  signUrl=http://localhost:3000/sign/OuTjWH…</tspan></text>
+<text x="16" y="666" class="l" style="animation-delay:6.67s"><tspan fill="#3fb950" font-weight="600">✓</tspan><tspan fill="#e6edf3"> 14  issue signing request</tspan></text>
+<text x="16" y="686" class="l" style="animation-delay:6.89s"><tspan fill="#3fb950" font-weight="600">✓</tspan><tspan fill="#e6edf3"> 15  open signing link (public)</tspan></text>
+<text x="16" y="706" class="l" style="animation-delay:7.11s"><tspan fill="#8b949e">        status=sealed sealed=true sha256=27e818ff4373fa51…</tspan></text>
+<text x="16" y="726" class="l" style="animation-delay:7.33s"><tspan fill="#3fb950" font-weight="600">✓</tspan><tspan fill="#e6edf3"> 16  sign (typed signature, consent=true)</tspan></text>
+<text x="16" y="746" class="l" style="animation-delay:7.56s"><tspan fill="#8b949e">        verdict: {"result":"valid","message":"Valid &amp; unaltered","sha256":"27e818ff4373fa51c784…</tspan></text>
+<text x="16" y="766" class="l" style="animation-delay:7.78s"><tspan fill="#3fb950" font-weight="600">✓</tspan><tspan fill="#e6edf3"> 17  verify sealed PDF</tspan></text>
+<text x="16" y="786" class="l" style="animation-delay:8.00s"><tspan fill="#8b949e">        payment dd0c5c3e-cf9b-4e80-819e-26b44a71caed ref=PAY-8AVTVFBC qrMode=text qrUrl=/paymen…</tspan></text>
+<text x="16" y="806" class="l" style="animation-delay:8.22s"><tspan fill="#3fb950" font-weight="600">✓</tspan><tspan fill="#e6edf3"> 18  generate payment instruction/QR</tspan></text>
+<text x="16" y="826" class="l" style="animation-delay:8.44s"><tspan fill="#8b949e">        dealStage=closed handoff=76aa06b0-5b59-49b0-9cab-58f3fbcc3aa9 created=true</tspan></text>
+<text x="16" y="846" class="l" style="animation-delay:8.67s"><tspan fill="#3fb950" font-weight="600">✓</tspan><tspan fill="#e6edf3"> 19  mark paid → close deal + create handoff</tspan></text>
+<text x="16" y="866" class="l" style="animation-delay:8.89s"><tspan fill="#8b949e">        handoff status=open</tspan></text>
+<text x="16" y="886" class="l" style="animation-delay:9.11s"><tspan fill="#3fb950" font-weight="600">✓</tspan><tspan fill="#e6edf3"> 20  confirm handoff bundle</tspan></text>
+<text x="16" y="906" class="l" style="animation-delay:9.33s"><tspan fill="#e6edf3"></tspan></text>
+<text x="16" y="926" class="l" style="animation-delay:9.56s"><tspan fill="#3fb950" font-weight="600">✓</tspan><tspan fill="#e6edf3"> end-to-end chain complete — lead → contact → recap → proposal → sign → paid → handoff.</tspan></text>
+<text x="16" y="946" class="l" style="animation-delay:9.78s"><tspan fill="#e6edf3">  Mailpit: http://localhost:8025   Dashboard: http://localhost:3001</tspan></text>
+<rect x="16" y="942" width="8.826" height="15" fill="#7ee787" class="cursor"/>
+</svg>
